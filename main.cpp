@@ -1,10 +1,10 @@
 #include <iostream>
 #include "box.h"
 #include <string>
+#include "checkerboard.h"
 
 int main()
 {
-    // std::cout << box(1,2) << std::endl;
 
     std::string result;
     result = box(7,4);
@@ -19,7 +19,11 @@ int main()
     std::cout << "\n------------------\n"; // seperator 
 
 
-    // more code down here
+    // Task B
+    result = checkboard(11,6);
+    std::cout << "checkboard(11,6): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator 
 
     return 0;
 }
