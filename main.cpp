@@ -1,6 +1,7 @@
 #include <iostream>
 #include "box.h"
 #include "cross.h"
+#include "lower.h"
 #include <string>
 #include "checkerboard.h"
 
@@ -29,6 +30,11 @@ int main()
 
     result = cross(8);
     std::cout << "cross(8): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n"; // seperator 
+
+    result = lower(6);
+    std::cout << "lower(6): \n";
     std::cout << result;
     std::cout << "\n------------------\n"; // seperator 
 
