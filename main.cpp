@@ -2,6 +2,7 @@
 #include "box.h"
 #include "cross.h"
 #include "lower.h"
+#include "upper.h"
 #include <string>
 #include "checkerboard.h"
 
@@ -38,5 +39,9 @@ int main()
     std::cout << result;
     std::cout << "\n------------------\n"; // seperator 
 
+    result = upper(5);
+    std::cout << "upper(5): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
     return 0;
 }
