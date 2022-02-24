@@ -3,6 +3,7 @@
 #include "cross.h"
 #include "lower.h"
 #include "upper.h"
+#include "trapezoid.h"
 #include <string>
 #include "checkerboard.h"
 
@@ -43,5 +44,16 @@ int main()
     std::cout << "upper(5): \n";
     std::cout << result;
     std::cout << "\n------------------\n";
+
+    result = trapezoid(12,5);
+    std::cout << "trapezoid(12,5): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
+    result = trapezoid(12,7);
+    std::cout << "trapezoid(12,7): \n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+
     return 0;
 }
